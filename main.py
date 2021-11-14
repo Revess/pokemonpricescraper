@@ -3,7 +3,7 @@ import pandas as pd
 import time as t
 
 scraper = Scraper()
-indexedCards = pd.read_csv("./data/pokemonsheet/improvedPokemonSheets.csv")
+indexedCards = pd.read_csv("./data/pokemonsheet/1999formatted.csv")
 
 for index, card in indexedCards.iterrows():
     special = "pokemon"
